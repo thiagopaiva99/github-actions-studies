@@ -11,7 +11,7 @@ jobs:
       - name: list files
         run: |
           pwd
-          ls
+          ls -a
       - name: simple js action
         id: greeting
         uses: actions/hello-world-javascript-action@v1.1
