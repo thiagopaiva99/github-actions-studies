@@ -5,6 +5,8 @@ on:
     branches:
       - main
       - 'feature/*'
+    branches-ignore:
+      - dev
   pull_request:
     types: [closed, assigned, opened, reopened]
 
